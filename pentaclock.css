@@ -1,5 +1,10 @@
 body
 {
-    background-color: black; /* The page background will be black */
-    color: white; /* The page text will be white */
+    background-color: black;
+    color: grey;
+}
+
+p
+{
+  letter-spacing: 6.66px;
 }
