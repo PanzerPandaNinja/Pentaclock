@@ -3,7 +3,7 @@ jQuery(document).ready(function($) {
     var clockDiv = $(".binary-clock");
 
 
-	
+
     function displayNumber(hour, minute) {
 		var binaryh =(hour).toString(2);
 		var hlength = binaryh.length;
@@ -14,7 +14,7 @@ jQuery(document).ready(function($) {
 			binaryh = tmp;
 			}
 		}
-		
+
 		var binarym =(minute).toString(2);
 		var mlength = binarym.length;
 		if (mlength <= 6){
@@ -27,13 +27,13 @@ jQuery(document).ready(function($) {
 
 		var binary = binarym + binaryh;
 		document.getElementById("bin").innerHTML = binary;
-		
+
         for (var i = 1; i <= 11; i++) {
             if (binary[11-i] == 1) {
-				document.getElementById("layer"+i).style.fill = 'blue'
+				document.getElementById("layer"+i).style.fill = 'lime'
             }
             else if (binary[11-i] == 0) {
-				document.getElementById("layer"+i).style.fill = 'red'
+				document.getElementById("layer"+i).style.fill = 'maroon'
             }
             else {
                 document.getElementById("layer"+i).style.fill = 'white'
@@ -46,14 +46,10 @@ jQuery(document).ready(function($) {
 
 		var date = new Date();
         displayNumber(date.getHours(), date.getMinutes());
-       
+
         setTimeout(function() {
             displayTime()
         }, 1000);
     }
     displayTime();
 });
-
-
-
-

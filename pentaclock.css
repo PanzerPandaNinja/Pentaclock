@@ -1,26 +1,5 @@
-
-.icon:hover {
-  fill:pink;
+body
+{
+    background-color: black; /* The page background will be black */
+    color: white; /* The page text will be white */
 }
-.icon{
-	fill:green;
-}
-
-
-#layer11:hover { fill:#0f0;}
-#layer12:hover { fill:#0f0;}
-#layer21:hover { fill:#0f0;}
-#layer22:hover { fill:#0f0;}
-#layer31:hover { fill:#0f0;}
-#layer32:hover { fill:#0f0;}
-#layer33:hover { fill:#0f0;}
-#layer41:hover { fill:#0f0;}
-#layer42:hover { fill:#0f0;}
-#layer43:hover { fill:#0f0;}
-#layer44:hover { fill:#0f0;}
-
-
-
-
-
-
