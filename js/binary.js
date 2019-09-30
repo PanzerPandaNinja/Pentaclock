@@ -22,8 +22,8 @@ document.addEventListener("DOMContentLoaded", function(){
 			}
 		}
 
-		var binary = binarym + binaryh;
-		document.getElementById("bin").innerHTML = binary;
+		var binary = binarym + binaryh; //I fucked up the order of these for some reason and forgot,
+		//document.getElementById("bin").innerHTML = binary; //this is to see the binary, didnt really work since I failed at setting them together
 
         for (var i = 1; i <= 11; i++) {
             if (binary[11-i] == 1) {
