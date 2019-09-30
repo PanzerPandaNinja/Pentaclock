@@ -1,8 +1,5 @@
 
-jQuery(document).ready(function($) {
-    var clockDiv = $(".binary-clock");
-
-
+document.addEventListener("DOMContentLoaded", function(){
 
     function displayNumber(hour, minute) {
 		var binaryh =(hour).toString(2);
