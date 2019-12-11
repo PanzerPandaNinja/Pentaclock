@@ -1,10 +1,10 @@
 
 document.addEventListener("DOMContentLoaded", function(){
 
-    function displayNumber(hour, minute) {
-		var binaryh =(hour).toString(2);
+    function displayNumber(hour, minute) {//takes in the time 
+		var binaryh =(hour).toString(2);//converts hour variable to binary 
 		var hlength = binaryh.length;
-		if (hlength <= 5){
+		if (hlength <= 5){//pads out with zeros so that the final binary is 11-digits
 		for (var i = (4 - hlength); i >= 0; i--){
 			var tmp;
 			tmp = "0" + binaryh;
@@ -12,9 +12,9 @@ document.addEventListener("DOMContentLoaded", function(){
 			}
 		}
 
-		var binarym =(minute).toString(2);
+		var binarym =(minute).toString(2);//converts minute variable to binary
 		var mlength = binarym.length;
-		if (mlength <= 6){
+		if (mlength <= 6){//pads out with zeros so that the final binary is 11-digits
 		for (var i = (5 - mlength); i >= 0; i--){
 			var tmp;
 			tmp = "0" + binarym;
@@ -22,10 +22,11 @@ document.addEventListener("DOMContentLoaded", function(){
 			}
 		}
 
-		var binary = binarym + binaryh; //I fucked up the order of these for some reason and forgot,
+		var binary = binarym + binaryh; //adds them together to get a the 11digit binary  
+		//I fucked up the order of these for some reason and forgot,
 		//document.getElementById("bin").innerHTML = binary; //this is to see the binary, didnt really work since I failed at setting them together
 
-        for (var i = 1; i <= 11; i++) {
+        for (var i = 1; i <= 11; i++) {//changes the color of the pentagram according to the bit
             if (binary[11-i] == 1) {
 				document.getElementById("layer"+i).style.fill = 'lime'
             }
@@ -33,7 +34,7 @@ document.addEventListener("DOMContentLoaded", function(){
 				document.getElementById("layer"+i).style.fill = 'maroon'
             }
             else {
-                document.getElementById("layer"+i).style.fill = 'white'
+                document.getElementById("layer"+i).style.fill = 'white'//this makes it easy to see if something is wrong
             }
         }
     }
