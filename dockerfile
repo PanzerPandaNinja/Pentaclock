@@ -11,7 +11,7 @@ ENTRYPOINT ["git"]
 CMD ["--help"]
 
 # Clone our GitHub Repository
-RUN git clone https://github.com/Poohma/pentaclock.git /pentaclock/
+RUN git clone https://github.com/Poohma/pentaclock.git /pentaclock/.
 RUN cp -R /pentaclock/* /home/app/
 RUN chown app:app -R /home/app/
 
