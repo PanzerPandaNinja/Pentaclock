@@ -10,8 +10,8 @@ WORKDIR /git
 ENTRYPOINT ["git"]
 CMD ["--help"]
 
-# Clone our private GitHub Repository
-RUN git clone -b docker https://github.com/Poohma/pentaclock.git /pentaclock/
+# Clone our GitHub Repository
+RUN git clone https://github.com/Poohma/pentaclock.git /pentaclock/
 RUN cp -R /pentaclock/* /home/app/
 RUN chown app:app -R /home/app/
 
