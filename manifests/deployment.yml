@@ -1,0 +1,16 @@
+apiVersion : apps/v1beta1
+kind: Deployment
+metadata:
+  name: poohmapentaclock 
+spec:
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: poohmapentaclock 
+    spec:
+      containers:
+        - name: poohmapentaclock 
+          image: pentacont.azurecr.io/poohmapentaclock
+          ports:
+          - containerPort: 80
