@@ -14,7 +14,7 @@ variables:
   dockerRegistryServiceConnection: '75fb8a04-2f48-4966-9b42-768648a1dfb3'
   imageRepository: 'poohmapentaclock'
   containerRegistry: 'pentacont.azurecr.io'
-  dockerfilePath: '**/Dockerfile'
+  dockerfilePath: '.'
   tag: '$(Build.BuildId)'
   imagePullSecret: 'pentacont56b9-auth'
 
