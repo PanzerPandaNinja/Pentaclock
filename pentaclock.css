@@ -1,11 +1,19 @@
 body
 {
     background-color: black;
-    color: grey;
+    color: #606060;
+
+    width: 80%;
 }
 
 p
 {
-  letter-spacing: 6.66px;
-  text-align: center;
+letter-spacing: 6.66px;
+text-align: center;
+color: black;
+}
+
+.svg-wrapper
+{
+    transform: rotate(0deg);
 }
