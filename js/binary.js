@@ -48,7 +48,9 @@ document.addEventListener("DOMContentLoaded", function () {
 function flipIt() {
 	document.getElementById("svg8").style = "transform: rotate(180deg)"
 }
-
+function flipItBack() {
+	document.getElementById("svg8").style = "transform: rotate(0deg)"
+}
 window.addEventListener("keydown", function (event) {
 	if (event.defaultPrevented) {
 		return; // Do nothing if the event was already processed
@@ -96,6 +98,9 @@ window.addEventListener("keydown", function (event) {
 			break;
 		case "h":
 			flipIt();
+			break;
+		case "p":
+			flipItBack();
 			break;
 
 		default:

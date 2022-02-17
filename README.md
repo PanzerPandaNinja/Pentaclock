@@ -24,6 +24,7 @@ Field-number to binary-
 Pressing b shows the binary numbers.
 Pressing x hides the binary numbers.
 Pressing h flips the pentagram.
+Pressing p flips the pentagram back.
 
 Adding ?hex=y to the url will flip the pentagram.
 
