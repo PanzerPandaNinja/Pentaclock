@@ -1,4 +1,4 @@
-# pentaclock
+# Pentaclock
 A binary clock in the form of a pentagram
 
 You start with the outer ring on top and read binary clockwise to read the hours.
