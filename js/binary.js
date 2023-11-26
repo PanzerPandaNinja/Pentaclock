@@ -58,43 +58,43 @@ window.addEventListener("keydown", function (event) {
 
 	switch (event.key) {
 		case "1":
-			document.getElementById("layer" + 1).style.fill = 'white'
+			document.getElementById("layer" + 1).style.fill = 'white';
 			break;
 		case "2":
-			document.getElementById("layer" + 2).style.fill = 'white'
+			document.getElementById("layer" + 2).style.fill = 'white';
 			break;
 		case "3":
-			document.getElementById("layer" + 3).style.fill = 'white'
+			document.getElementById("layer" + 3).style.fill = 'white';
 			break;
 		case "4":
-			document.getElementById("layer" + 4).style.fill = 'white'
+			document.getElementById("layer" + 4).style.fill = 'white';
 			break;
 		case "5":
-			document.getElementById("layer" + 5).style.fill = 'white'
+			document.getElementById("layer" + 5).style.fill = 'white';
 			break;
 		case "6":
-			document.getElementById("layer" + 6).style.fill = 'white'
+			document.getElementById("layer" + 6).style.fill = 'white';
 			break;
 		case "7":
-			document.getElementById("layer" + 7).style.fill = 'white'
+			document.getElementById("layer" + 7).style.fill = 'white';
 			break;
 		case "8":
-			document.getElementById("layer" + 8).style.fill = 'white'
+			document.getElementById("layer" + 8).style.fill = 'white';
 			break;
 		case "9":
-			document.getElementById("layer" + 9).style.fill = 'white'
+			document.getElementById("layer" + 9).style.fill = 'white';
 			break;
 		case "0":
-			document.getElementById("layer" + 10).style.fill = 'white'
+			document.getElementById("layer" + 10).style.fill = 'white';
 			break;
 		case "+":
-			document.getElementById("layer" + 11).style.fill = 'white'
+			document.getElementById("layer" + 11).style.fill = 'white';
 			break;
 		case "b":
-			document.getElementById("bin").style.color = 'green'
+			document.getElementById("bin").style.color = 'green';
 			break;
 		case "x":
-			document.getElementById("bin").style.color = 'black'
+			document.getElementById("bin").style.color = 'black';
 			break;
 		case "h":
 			flipIt();
