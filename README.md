@@ -13,7 +13,7 @@ Pressing `p` flips the pentagram back.
 Adding `?hex=y` to the url will flip the pentagram.  
 
 
-Identify field 1-11 by pressing keys 1 2 3 4 5 6 7 8 9 0 +
+Identify field 1-11 by pressing keys `1` `2` `3` `4` `5` `6` `7` `8` `9` `0` `+`
 
 ### Hours
 - Field 1 -> Hour 1
