@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="-8 60 110 110"
+   version="1"
+   id="svg8"
+   class="svg-wrapper"
+   onclick="flipIt();"
+   sodipodi:docname="pentagram.svg"
+   width="110"
+   height="110"
+   inkscape:version="1.3.1 (91b66b0783, 2023-11-16)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs12" />
+  <sodipodi:namedview
+     id="namedview12"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="true"
+     inkscape:zoom="8"
+     inkscape:cx="68"
+     inkscape:cy="54.3125"
+     inkscape:window-width="2560"
+     inkscape:window-height="1377"
+     inkscape:window-x="2552"
+     inkscape:window-y="1432"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg8">
+    <inkscape:grid
+       id="grid12"
+       units="px"
+       originx="0"
+       originy="0"
+       spacingx="1"
+       spacingy="1"
+       empcolor="#0099e5"
+       empopacity="0.30196078"
+       color="#0099e5"
+       opacity="0.14901961"
+       empspacing="10"
+       dotted="false"
+       gridanglex="30"
+       gridanglez="30"
+       visible="true" />
+  </sodipodi:namedview>
+  <!-- layer 0 is the line making the pentagram it self, layer 1-11 is the fields between them -->
+  <!--hour fields-->
+  <!-- minute fields-->
+  <g
+     id="g12"
+     transform="matrix(1.0823499,0,0,1.0868242,0.05258758,-5.8410369)">
+    <g
+       id="layer1"
+       stroke="#000000"
+       transform="translate(-39.625,-0.12499999)">
+      <path
+         d="m 191,276 0.20039,-0.28363 C 266.59801,219.55239 360.31783,219.08041 436,276 L 314,354 C 272.24441,327.80571 232.48445,302.19076 191,276 Z"
+         transform="scale(0.26458)"
+         id="path2"
+         style="display:inline;fill:#808000"
+         sodipodi:nodetypes="ccccc" />
+    </g>
+    <g
+       id="layer2"
+       stroke="#000000"
+       transform="translate(-39.625,-0.12499999)">
+      <path
+         d="m 443,438 -52,-34 46,-126 0.33605,-0.7556 0.47859,0.4562 C 490.31583,325.71429 515.40123,402.55089 496,471 Z"
+         transform="scale(0.26458)"
+         id="path3"
+         style="fill:#808000"
+         sodipodi:nodetypes="ccccccc" />
+    </g>
+    <g
+       id="layer3"
+       stroke="#000000"
+       transform="translate(-39.625,-0.12499999)">
+      <path
+         d="M 316.56166,607.87039 C 333.08814,563.49145 348.75269,519.27999 365,474 h 130 l -0.081,0.20613 c -26.91609,71.61759 -84.79557,124.53591 -178.35734,133.66426 z"
+         transform="scale(0.26458)"
+         id="path4"
+         style="fill:#808000"
+         sodipodi:nodetypes="ccccc" />
+    </g>
+    <g
+       id="layer4"
+       stroke="#000000"
+       transform="translate(-39.625,-0.12499999)">
+      <path
+         d="M 313.04661,607.89883 C 236.2663,602.18531 155.49605,547.35968 131.11908,474.32801 L 131,474 h 132 c 17.04792,44.52532 33.63774,89.22184 50.25923,133.90729 z"
+         transform="scale(0.26458)"
+         id="path5"
+         style="fill:#808000"
+         sodipodi:nodetypes="cccccc" />
+    </g>
+    <g
+       id="layer5"
+       stroke="#000000"
+       transform="translate(-39.625,-0.12499999)">
+      <path
+         d="M 130.5886,471.99596 C 113.61333,403.33165 135.24376,323.96971 189,278 l 47,126 -7,5 -98.09165,62.84725 z"
+         transform="scale(0.26458)"
+         id="path6"
+         style="fill:#808000"
+         sodipodi:nodetypes="cccccc" />
+    </g>
+    <g
+       id="layer6"
+       stroke="#000000"
+       style="fill:#000080"
+       transform="translate(-39.625,-0.12499999)">
+      <path
+         d="m 253,438 -12,-33 72,-47 73,47 -11.58462,33.50111 -12.50111,32.58462 L 314,471 h -48.4685 z"
+         transform="scale(0.26458)"
+         id="path7"
+         style="fill:#000080"
+         sodipodi:nodetypes="ccccccccc" />
+    </g>
+    <g
+       id="layer7"
+       stroke="#000000"
+       transform="translate(-39.625,-0.12499999)">
+      <path
+         d="M 290.08352,534.32523 266.64962,473.82283 361,474 l -23,64 -23.5011,61.82855 z"
+         transform="scale(0.26458)"
+         id="path8"
+         style="fill:#000080"
+         sodipodi:nodetypes="cccccc" />
+    </g>
+    <g
+       id="layer8"
+       stroke="#000000"
+       transform="translate(-39.625,-0.12499999)">
+      <path
+         d="M 138.5336,470.611 237,407 262,471 H 138 Z"
+         transform="scale(0.26458)"
+         id="path9"
+         style="fill:#000080"
+         sodipodi:nodetypes="ccccc" />
+    </g>
+    <g
+       id="layer9"
+       stroke="#000000"
+       transform="translate(-39.625,-0.12499999)">
+      <path
+         d="M 238.88979,402.0158 194,282 l 116,74 -71,46 z"
+         transform="scale(0.26458)"
+         id="path10"
+         style="fill:#000080"
+         sodipodi:nodetypes="ccccc" />
+    </g>
+    <g
+       id="layer10"
+       stroke="#000000"
+       transform="translate(-39.625,-0.12499999)">
+      <path
+         d="m 352,379 -35,-23 c 38.72026,-25.07578 77.1958,-49.30577 115,-74 l -44,119 z"
+         transform="scale(0.26458)"
+         id="path11"
+         style="fill:#000080"
+         sodipodi:nodetypes="ccccc" />
+    </g>
+    <g
+       id="layer11"
+       stroke="#000000"
+       transform="translate(-39.625,-0.12499999)">
+      <path
+         d="M 366.08352,471.00221 389,407 489.25055,471 c -41.00263,0.22212 -81.58881,-0.0277 -123.16703,0.002 z"
+         transform="scale(0.26458)"
+         id="path12"
+         style="fill:#000080"
+         sodipodi:nodetypes="cccc" />
+    </g>
+  </g>
+</svg>
