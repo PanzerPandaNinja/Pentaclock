@@ -12,13 +12,23 @@ svg {
     width: 100%;
 }
 
-p
-{
+p {
+    color: black; 
+    width: fit-content; 
+    height: fit-content; 
+    font-size: 0.8vw;
+    font-size: 0.8vh;
+}
+
+a {
     color: black;
 }
 
-.svg-wrapper
-{
+.green-text {
+    color: green;
+}
+
+.svg-wrapper {
     transform: rotate(0deg);
 }
 
@@ -26,8 +36,8 @@ p
     position: absolute;
     top: 0;
     left: 0;
-    width: 30%;
-    height: 20%;
+    width: 18%;
+    height: 18%;
     display: flex;
     justify-content: top;
     align-items: right;
