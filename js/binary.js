@@ -9,7 +9,10 @@ document.addEventListener("DOMContentLoaded", function () {
 			"Pressing `p` flips the pentagram back.  <br>"+
 			"Adding `?hex=y` to the url will flip the pentagram. <br><br>"+
 			"Mouse click toggles the explanation text. <br><br>"+
-			"Identify field 1-11 by pressing keys `1` `2` `3` `4` `5` `6` `7` `8` `9` `0` `+`";
+			"Identify field 1-11 by pressing keys:<br>"+
+			" `1` `2` `3` `4` `5` `6` `7` `8` `9` `0` `+`<br><br>"+
+			"Read more at the <br>"+
+			"<a id=\"link\" href='https://github.com/PanzerPandaNinja/Pentaclock'>GitHub Repository</a>";
 			
 		var binaryh = (hour).toString(2);//converts hour variable to binary 
 		var hlength = binaryh.length;
@@ -43,7 +46,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 	function displayTime() {
-
 		var date = new Date();
 		displayNumber(date.getHours(), date.getMinutes());
 		setTimeout(function () { displayTime() }, 1000);
@@ -54,10 +56,13 @@ document.addEventListener("DOMContentLoaded", function () {
 
 function toggleExplanation() {
 	var x = document.getElementById("bin");
+	var l = document.getElementById("link"); 
 	if (x.style.color === "black") {
-		document.getElementById("bin").style.color = 'green';
+		x.style.color = 'green';
+		l.style.color = 'green';
 	} else {
-		document.getElementById("bin").style.color = 'black';
+		x.style.color = 'black';
+		l.style.color = 'black';
 	}
 }
 
