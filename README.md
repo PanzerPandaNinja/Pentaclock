@@ -5,13 +5,12 @@ You start with the outer ring on top and read binary clockwise to read the hours
 Then you start in the middle and go down, then clockwise for the minutes.
 
 ## Interactive functions 
-Pressing `b` shows the binary numbers.  
-Pressing `x` hides the binary numbers.  
 Pressing `h` flips the pentagram.  
 Pressing `p` flips the pentagram back.  
 
 Adding `?hex=y` to the url will flip the pentagram.  
 
+Mouse click toggles the explanation text.
 
 Identify field 1-11 by pressing keys `1` `2` `3` `4` `5` `6` `7` `8` `9` `0` `+`
 
