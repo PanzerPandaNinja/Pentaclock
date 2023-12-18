@@ -13,19 +13,12 @@ svg {
 }
 
 p {
-    color: black; 
+    color: green; 
     width: fit-content; 
     height: fit-content; 
-    font-size: 0.8vw;
-    font-size: 0.8vh;
-}
-
-a {
-    color: black;
-}
-
-.green-text {
-    color: green;
+    font-size: 2vw;
+    font-size: 2vh;
+    opacity: 0;
 }
 
 .svg-wrapper {

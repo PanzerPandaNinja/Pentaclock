@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function () {
 			"Adding `?hex=y` to the url will flip the pentagram. <br><br>"+
 			"Mouse click toggles the explanation text. <br><br>"+
 			"Identify field 1-11 by pressing keys:<br>"+
-			" `1` `2` `3` `4` `5` `6` `7` `8` `9` `0` `+`<br><br>"+
+			"  1 - 2 - 3 - 4 - 5 - 6 - 7 - 8 - 9 - 0 - + <br><br>"+
 			"Read more at the <br>"+
 			"<a id=\"link\" href='https://github.com/PanzerPandaNinja/Pentaclock'>GitHub Repository</a>";
 			
@@ -57,12 +57,10 @@ document.addEventListener("DOMContentLoaded", function () {
 function toggleExplanation() {
 	var x = document.getElementById("bin");
 	var l = document.getElementById("link"); 
-	if (x.style.color === "black") {
-		x.style.color = 'green';
-		l.style.color = 'green';
+	if (x.style.opacity === "0") {
+		x.style.opacity = 1;
 	} else {
-		x.style.color = 'black';
-		l.style.color = 'black';
+		x.style.opacity = 0;
 	}
 }
 
