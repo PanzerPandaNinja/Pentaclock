@@ -1,4 +1,4 @@
-
+let audioPlayed = false;
 document.addEventListener("DOMContentLoaded", function () {
 
 	function displayNumber(hour, minute) {//takes in the time 
@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", function () {
 				binaryh = tmp;
 			}
 		}
-
+		
 		var binarym = (minute).toString(2);//converts minute variable to binary
 		var mlength = binarym.length;
 		if (mlength <= 6) {//pads out with zeros so that the final binary is 11-digits
@@ -35,6 +35,12 @@ document.addEventListener("DOMContentLoaded", function () {
 		}
 		var binary = binarym + binaryh; //adds them together to get a the 11digit binary  
 		
+		
+
+		if (binary === "00000000000" && !audioPlayed) {
+			playAudio();
+			audioPlayed = true;
+		}
 		document.getElementById("bin").innerHTML = explanationText + "<H2>Binary:  </H2>" + binaryh + "    " + binarym ; //this is to see the binary, and explanation
 
 		for (var i = 1; i <= 11; i++) {//changes the color of the pentagram according to the bit
@@ -53,6 +59,13 @@ document.addEventListener("DOMContentLoaded", function () {
 
 	displayTime();
 });
+
+function playAudio() {
+	const audio = new Audio('ConsumiteFurore_loop.mp3');
+	audio.play().catch(function(error) {
+		console.log('Failed to play audio:', error);
+	});
+}
 
 function toggleExplanation() {
 	var x = document.getElementById("bin");
