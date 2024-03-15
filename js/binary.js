@@ -40,7 +40,11 @@ document.addEventListener("DOMContentLoaded", function () {
 		if (binary === "00000000000" && !audioPlayed) {
 			playAudio();
 			audioPlayed = true;
-		}
+		}//plays an audiofile at midnight, the audioPlayed makes sure the audio only plays one time
+		if (binary.includes("1")) {
+			audioPlayed = false;
+		}//this resets the value so it will play next midnight
+
 		document.getElementById("bin").innerHTML = explanationText + "<H2>Binary:  </H2>" + binaryh + "    " + binarym ; //this is to see the binary, and explanation
 
 		for (var i = 1; i <= 11; i++) {//changes the color of the pentagram according to the bit

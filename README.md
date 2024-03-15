@@ -1,6 +1,8 @@
 # Pentaclock
 A binary clock in the form of a pentagram
 
+At midnight the clock will play an MP3 file if sound is enabled to play automaticly in the browser.
+
 You start with the outer ring on top and read binary clockwise to read the hours.
 Then you start in the middle and go down, then clockwise for the minutes.
 
@@ -43,3 +45,7 @@ And minute-fields 1, 4 and 32.
    `1 + 4 + 32 = 37`
 
 
+## Develop
+
+To set the date and time under testing, this powershell command is usefull:
+   `Set-Date -Date (Get-Date).Date.AddDays(-1).AddHours(23).AddMinutes(59).AddSeconds(50)`
