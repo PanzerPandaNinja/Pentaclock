@@ -1,4 +1,4 @@
-[![pages-build-deployment](https://github.com/PanzerPandaNinja/Pentaclock/actions/workflows/pages/pages-build-deployment/badge.svg?branch=master&event=deployment_status)](https://github.com/PanzerPandaNinja/Pentaclock/actions/workflows/pages/pages-build-deployment)
+[![pages-build-deployment](https://github.com/PanzerPandaNinja/Pentaclock/actions/workflows/pages/pages-build-deployment/badge.svg?branch=master)](https://github.com/PanzerPandaNinja/Pentaclock/actions/workflows/pages/pages-build-deployment)
 
 # Pentaclock
 A binary clock in the form of a pentagram
