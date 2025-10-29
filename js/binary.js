@@ -3,8 +3,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
 	function displayNumber(hour, minute) {//takes in the time 
 		var explanationText = "<H2>Explanation</H2> "+
-			"You start with the outer ring on top and read binary clockwise to read the hours. <br>"+
-			"Then you start in the middle and go down, then clockwise for the minutes. <br><br>"+
+			"You start with the fields on the outer ring on top and read binary clockwise to read the hours. <br>"+
+			"Then you start in the middle field of the pentagram and go down, then clockwise for the minutes. <br><br>"+
 			"<H2>Interactive functions:  </H2>Pressing `h` flips the pentagram.  <br>"+
 			"Pressing `p` flips the pentagram back.  <br>"+
 			"Adding `?hex=y` to the url will flip the pentagram. <br><br>"+
